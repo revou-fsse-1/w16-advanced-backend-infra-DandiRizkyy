@@ -43,7 +43,7 @@ services:
     - .env
     restart: always
   app:
-    image: dandirizkyy/dandirizky-w15-myapp
+    image: dandirizkyy/w16-myapp
     container_name: dandirizky-myapp
     build: .
     ports:
