@@ -15,6 +15,6 @@ RUN pnpm add @prisma/client
 RUN npx prisma generate
 RUN pnpm build
 
-EXPOSE 4001
+EXPOSE 4000
 
 CMD ["pnpm", "start:prod"]
