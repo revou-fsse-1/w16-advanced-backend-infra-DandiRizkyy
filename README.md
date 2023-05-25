@@ -4,11 +4,17 @@
 
 ---
 
+## Google Cloud Platform (GCP) 👀
+
+---
+
+Links : https://w16-myadvancedapp.dandirizky.site/
+
 ## Docker Hub 🐳
 
 ---
 
-My Docker Hub Images : `soon`
+My Docker Hub Images : https://hub.docker.com/r/dandirizkyy/w16-advancedapp/tags
 
 ## Installation 🔨
 
@@ -43,7 +49,7 @@ services:
     - .env
     restart: always
   app:
-    image: dandirizkyy/w16-myapp
+    image: dandirizkyy/w16-advancedapp
     container_name: dandirizky-myapp
     build: .
     ports:
@@ -201,6 +207,7 @@ Here you can find my documentation using swagger : https://w15-webapp-dandi.onre
 - PrismaORM
 - PostgreSQL
 - Docker
+- GCP
 
 ## Support 🙌
 

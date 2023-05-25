@@ -36,12 +36,12 @@ services:
     - .env
     restart: always
   app:
-    image: dandirizkyy/w16-myapp
+    image: dandirizkyy/w16-advancedapp
     container_name: dandirizky-myapp
     build: .
     ports:
-    - 80:4000
-    - 443:4000
+    # - 80:4000
+    # - 443:4000
     - 4000:4000
     env_file:
     - .env
