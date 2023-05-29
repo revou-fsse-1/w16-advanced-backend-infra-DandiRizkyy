@@ -12,7 +12,7 @@ Plus, on this advanced task i'm adding more features on my application such as a
 
 ---
 
-![](/assets/W16-DIAGRAMADVANCED.png)
+![](/assets/W16-DIAGRAMADVANCED-fixed.png)
 
 ## Google Cloud Platform (GCP) 👀
 
